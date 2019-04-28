@@ -1,0 +1,22 @@
+let button_a08 = document.getElementById('a08')
+let button_a09 = document.getElementById('a09')
+let button_a10 = document.getElementById('a10')
+let button_a11 = document.getElementById('a11')
+let button_a12 = document.getElementById('a12')
+let button_a13 = document.getElementById('a13')
+let button_a14 = document.getElementById('a14')
+
+
+let a08 = new Audio('./static/sounds/08acc_bd_max.wav')
+let a09 = new Audio('./static/sounds/09acc_sd_max.wav')
+let a10 = new Audio('./static/sounds/10acc_ch_max.wav')
+let a11 = new Audio('./static/sounds/11acc_oh_max.wav')
+let a13 = new Audio('./static/sounds/13acc_ht_max.wav')
+let a14 = new Audio('./static/sounds/14acc_cy_max.wav')
+
+button_a08.addEventListener('click', () => a08.play())
+button_a09.addEventListener('click', () => a09.play())
+button_a10.addEventListener('click', () => a10.play())
+button_a11.addEventListener('click', () => a11.play())
+button_a13.addEventListener('click', () => a13.play())
+button_a14.addEventListener('click', () => a14.play())
